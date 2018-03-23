@@ -12,7 +12,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
 
-
+<script>
+    (function(){
+        if('true'){
+            if (prompt('请输入文章密码') !== 'true'){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
 
@@ -91,7 +100,7 @@
 <meta property="og:image" content="http://yoursite.com/images/sort_002.png">
 <meta property="og:image" content="http://yoursite.com/images/sort_003.png">
 <meta property="og:image" content="http://yoursite.com/images/sort_004.png">
-<meta property="og:updated_time" content="2018-03-23T06:40:36.726Z">
+<meta property="og:updated_time" content="2018-03-23T07:11:44.635Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java常用排序算法">
 <meta name="twitter:description" content="算法作为编程中重要的一部分，今天来回顾一下Java中最常见的算法。 1.冒泡排序冒泡排序算法的原理是采用相邻的2个元素比较大小，比如从第一个元素开始，和其相邻的第二个元素比较，以升序为例，如果第一个元素比相邻的第二个元素大，则它们交换位置，以此类推。冒泡排序算法具体实现：打印结果如下：2.快速排序基于分治的思想，是冒泡排序的改进型。首先在数组中选择一个基准点（该基准点的选取可能影响快速排序的效率，">
